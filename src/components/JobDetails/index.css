@@ -1,0 +1,131 @@
+.for-job-det {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.job-details-container {
+  background-color: black;
+  padding: 64px;
+}
+
+.job-details-failure {
+  background-color: black;
+  color: white;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description-visit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mt-mb {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.similar-jobs-heading {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: roboto;
+}
+
+.company-website-url {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  width: 60px;
+  justify-content: space-between;
+}
+
+.c-white {
+  color: white;
+  margin: 0;
+}
+
+.inc-fs {
+  font-size: 24px;
+  font-weight: 500;
+}
+.mb-inc {
+  margin-bottom: 32px;
+}
+
+.skills-heading {
+  font-size: 24px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.life-at-company-container {
+  display: flex;
+}
+
+.life-at-company-image {
+  margin-left: 32px;
+  max-height: 200px;
+}
+
+.similar-jobs-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .job-details-container {
+    padding: 32px;
+  }
+
+  .life-at-company-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .life-at-company-image {
+    margin-left: 0px;
+  }
+
+  .inc-fs {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .skills-heading {
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: 500;
+  }
+}
+
+.skills-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 450px) {
+  .job-details-container {
+    padding: 16px;
+  }
+  .inc-fs {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .skills-heading {
+    font-size: 16px;
+    font-family: 'roboto';
+    font-weight: 500;
+  }
+}

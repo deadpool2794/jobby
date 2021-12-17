@@ -1,0 +1,10 @@
+.not-found-container {
+  background-color: black;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: roboto;
+}

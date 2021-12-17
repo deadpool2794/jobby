@@ -1,0 +1,36 @@
+.skill-container {
+  width: 30%;
+  display: flex;
+
+  margin-bottom: 16px;
+}
+
+.skill-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 16px;
+}
+
+.skill-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 620px) {
+  .skill-container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .skill-container {
+    width: 100%;
+  }
+  .skill-image {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

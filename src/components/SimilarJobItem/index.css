@@ -1,0 +1,24 @@
+.similar-job-item-container {
+  width: 300px;
+  padding: 16px;
+  background-color: #272727;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.similar-job-link {
+  text-decoration: unset;
+  color: white;
+}
+
+.similar-job-description-heading {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.similar-job-description-desc {
+  font-size: 14px;
+  font-family: roboto;
+  margin-bottom: 20px;
+}
